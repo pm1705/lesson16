@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474646"
+    tools:context=".resultsy">
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="#8C8C8C">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:textColor="#E8E8E8"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diffrence"
+            android:textColor="#E8E8E8"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="position"
+            android:textColor="#E8E8E8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3A9A9"
+            android:onClick="ret"
+            android:text="return"
+            app:backgroundTint="#D86868" />
+
+    </LinearLayout>
+</LinearLayout>
